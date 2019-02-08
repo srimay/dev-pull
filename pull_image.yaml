@@ -1,0 +1,9 @@
+---
+- hosts: servers
+  tasks:
+  - name: pull 
+    docker_image:
+     name: ubuntu-16.04
+
+
+
